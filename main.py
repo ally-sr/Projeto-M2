@@ -23,10 +23,10 @@ while rodando:
     idade = 1
     idade = cl.PesquisaSaude.idadeVerif(cl.PesquisaSaude, idade)
     if idade == 0:
-        print('Programa finalizado')
+        print('Pesquisa finalizada.')
         print(dict)
         break
-    nome=input('Digite o nome do entrevistado: ')
+    nome=input('Qual o seu nome? \n ')
     lista_idade.append(idade)
     genero=cl.PesquisaSaude.generos(cl.PesquisaSaude)
     lista_genero.append(genero)
