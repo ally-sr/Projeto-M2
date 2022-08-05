@@ -8,21 +8,21 @@ class PesquisaSaude():
 
     def idadeVerif(self, idade):        
         while idade<0 or idade>140:
-            idade=int(input("Digite a idade correta do entrevistado, lembrando precisa ser maior de idade: "))
+            idade=int(input("Qual a sua idade? \n"))
         return idade
 
     def idadeVerif(self, idade):
         while (idade<18 or idade>140) and idade != 0:
-            idade=int(input("Digite a idade correta do entrevistado, lembrando precisa ser maior de idade: "))
+            idade=int(input("Digite uma idade correta \n "))
         return idade
 
     def generos(self):
-        genero = int(input('Digite o número que corresponde ao seu gênero: '
-                '\n1- Masculino\n2- Feminino\n3- Binário\n4- Outro\nDigite aqui: '))
+        genero = int(input('Indique o gênero no qual você se identifica: '
+                '\n1- Masculino\n2- Feminino\n3- Não-Binário \n4- Outro\nDigite aqui: '))
         while genero<1 or genero>4:
-            print('Valor inválido,tente novamente...')
-            genero=int(input('Digite o número que corresponde ao seu gênero: '
-                '\n1- Masculino\n2- Feminino\n3- Binário\n4- Outro\nDigite aqui: '))
+            print('Opção inválida, Tente novamente!')
+            genero=int(input('Indique o gênero no qual você se identifica: '
+                '\n1- Masculino\n2- Feminino\n3- Não-Binário\n4- Outro\nDigite aqui: '))
         if genero==1:
             self.genero='Masculino'
             return self.genero
@@ -39,7 +39,7 @@ class PesquisaSaude():
     def quatroPerguntas(self, pergunta1, pergunta2, pergunta3, pergunta4):
 
         while pergunta1<1 or pergunta1>3:
-            pergunta1=int(input('1- Você acha importante cuidar da saúde mental?: '))
+            pergunta1=int(input('Para as perguntas a seguir, digite [1] para indicar que sim, [2] para indicar que não ou [3] para indicar que não sabe respoder.\n 1- Você acha importante cuidar da saúde mental?\n'))
             if pergunta1==1:
                 self.resposta1='Sim'
             elif pergunta1==2:
