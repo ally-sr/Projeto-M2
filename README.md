@@ -26,7 +26,7 @@ O intuito dessa pesquisa é ter uma noção numerica de como as pessoas lidam co
 * O projeto deve ficar solicitando resposatas emum laço de repetição que fica inserindo as respostas informadas nas linhas do .csv até que a idade de 00 seja informada
 
 ### FERRAMENTAS UTILIZADAS
-  <img src="https://user-images.githubusercontent.com/40433498/174687677-f42a2f52-1b0f-4f8d-ba9d-316e6d019c5f.png" width="50" height="50" /> <img src="https://user-images.githubusercontent.com/40433498/174687676-5d40a2fe-4b62-4fa1-a1fe-20737a1878f8.png" width="50" height="50" /> <img src="https://user-images.githubusercontent.com/40433498/174687678-7ea56222-a00e-4886-a63d-d4214221f8ca.jpg" width="50" height="50" />
+  <img src="https://user-images.githubusercontent.com/40433498/174687677-f42a2f52-1b0f-4f8d-ba9d-316e6d019c5f.png" width="50" height="50" /> <img src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png" width="50" height="50" /> <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fseeklogo.com%2Ffree-vector-logos%2Fnotion&psig=AOvVaw0YGs1EAi6q53R_PE-RKpgg&ust=1665119808335000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOjxmufsyvoCFQAAAAAdAAAAABAE" width="50" height="50" />
 
 ### DESENVOLVEDORES DO PROJETO
 
